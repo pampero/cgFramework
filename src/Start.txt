@@ -1,0 +1,34 @@
+-. Crear el siguiente alias de base de datos desde Sql Server Configuration
+
+Alias Name: GuideDbServer
+Pipe Name: \\.\pipe\MSSQL$sqlexpress2008\sql\query 
+Protocol: Named Pipes
+Server: .
+
+-. Verificar la configuración de las siguientes Propiedades del proyecto Framework
+
+Windows Authentication: Disabled
+Anonymous Authentication: Enabled
+
+-. En VS2012 abrir View -> Other Windows -> Manage Nuget Package, seleccionar en el combo el proyecto Model.
+
+-. Ejecutar en la línea de comando update-database -force. Esto actualizará el modelo con la base de datos.
+
+-. Correr el script de base de datos que cargará los maestros desde le proyecto Model.SQL -> script PostDeployment.Masters.
+
+-. Correr la app.
+
+usuario: admin
+password: Passw0rd
+
+Ir a:
+
+Layout Aman.da
+http://localhost:1586/BackOffice/routes/amanda
+
+Layout Bootstrap + KnockoutJs Sample
+http://localhost:1586/BackOffice/routes/bootstrap
+
+Demo ABM con Aman.da
+http://localhost:1586/BackOffice/routes/
+http://localhost:1586/BackOffice/routes/Edit/1

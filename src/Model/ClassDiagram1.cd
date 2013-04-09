@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Model.BusinessRule" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAABCAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>BusinessRules\BusinessRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.ValidateCompare" Collapsed="true">
+    <Position X="1" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAKACAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>BusinessRules\ValidateCompare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.ValidateDelete" Collapsed="true">
+    <Position X="3.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessRules\ValidateDelete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.ValidateEmail" Collapsed="true">
+    <Position X="10" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessRules\ValidateEmail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.ValidateLength" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAEABAAAAAAAA=</HashCode>
+      <FileName>BusinessRules\ValidateLength.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.ValidateRange" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABKAAAAAEAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>BusinessRules\ValidateRange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.ValidateRegex" Collapsed="true">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessRules\ValidateRegex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.ValidateRequired" Collapsed="true">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessRules\ValidateRequired.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.AppDbContext" Collapsed="true">
+    <Position X="40.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBInitializer\DBContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.DBContextInitializer" Collapsed="true">
+    <Position X="42.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBInitializer\DBContextlInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.BaseClass">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAEAAAIACAgAAAAAAAEAAAAAAAAAUAQAAAYQAAgAE=</HashCode>
+      <FileName>Model\entities\BaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.BunkeringConsumption" Collapsed="true">
+    <Position X="31.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEgAAAAAAAAAAEAAAAABAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Model\entities\BunkeringConsumption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.ContractType" Collapsed="true">
+    <Position X="36" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Model\entities\ContractType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Control" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAkAAAAEAAAQAAAgAAgAACAAIBIAAAAA=</HashCode>
+      <FileName>Model\entities\Control.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.ControlRule" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAEAAAAAAAAAQgAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\entities\ControlRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Crew" Collapsed="true">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAQAAAAAAAAgAQAAAAAAAAA=</HashCode>
+      <FileName>Model\entities\Crew.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.CriticalStep" Collapsed="true">
+    <Position X="18" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEBAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\entities\CriticalStep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Customer" Collapsed="true">
+    <Position X="22.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\entities\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.DaylightTime" Collapsed="true">
+    <Position X="27" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAEAAAAAAAAIAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Model\entities\DaylightTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.NavTranche" Collapsed="true">
+    <Position X="33.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAEAAAAQAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\entities\NavTranch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.PushBoat" Collapsed="true">
+    <Position X="38.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAAAAAAAAAAAAAAAAAAQAAAAABIAAgIAAAACIAAA=</HashCode>
+      <FileName>Model\entities\PushBoat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Route">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\entities\Route.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.RouteLevel" Collapsed="true">
+    <Position X="9" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAEAAAAAAAAAAAAAFAAAAAAAAAAA=</HashCode>
+      <FileName>Model\entities\RouteLevel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.TerminalPort" Collapsed="true">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEBAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\entities\TerminalPort.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.TradeType" Collapsed="true">
+    <Position X="20.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Model\entities\TradeType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Variable" Collapsed="true">
+    <Position X="24.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAQAgAAAQAAA=</HashCode>
+      <FileName>Model\entities\Variable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Waypoint" Collapsed="true">
+    <Position X="29.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEBIAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\entities\Waypoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.SortExpression&lt;TEntity, TType&gt;" Collapsed="true">
+    <Position X="40.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\GenericRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.GenericRepository&lt;TEntity&gt;" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAEAAAAAAAABAAAAAAAAAAAEAAAAACAAAgAAABAA=</HashCode>
+      <FileName>Repositories\GenericRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.UnitOfWork" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAIAAACAAAEAAAAAAgAAAAAAAAAAAAAAAABAAQAA=</HashCode>
+      <FileName>Repositories\UnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Weekdays" Collapsed="true">
+    <Position X="46" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQIAIAECACAAAAIAAAACAgIACAICAAgAAAAAAAAAg=</HashCode>
+      <FileName>Enums\WeekDays.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Mapping.JobMap" Collapsed="true">
+    <Position X="46" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mappings\JobMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Mapping.SqlJobMap" Collapsed="true">
+    <Position X="42.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mappings\SqlJobMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.DAL.RoutesRepository" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repositories\RoutesRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.DAL.JobsRepository" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAggAABAAAAA=</HashCode>
+      <FileName>Repositories\JobsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Utils.Validation.Helper" Collapsed="true">
+    <Position X="44.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Utils\Validation.Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Model.ValidationDataType" Collapsed="true">
+    <Position X="42.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAQAAAAAAAAAACAgABAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessRules\ValidationDataType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.ValidationOperator" Collapsed="true">
+    <Position X="44.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAgAAAAAAAgIAAAAAAAAAAAAAAAAAAAAQAACA=</HashCode>
+      <FileName>BusinessRules\ValidationOperator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.JobType" Collapsed="true">
+    <Position X="44.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Enums\JobType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.ActiveEnum" Collapsed="true">
+    <Position X="40.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\enums\ActiveEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.ContractTypeEnum" Collapsed="true">
+    <Position X="42.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Model\enums\ContractTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.ControlTypeEnum" Collapsed="true">
+    <Position X="44.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAIAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Model\enums\ControlTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.ControlValueTypeEnum" Collapsed="true">
+    <Position X="46" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAEAAQAAAAAAAAAAAgAQAAAAAAAAA=</HashCode>
+      <FileName>Model\enums\ControlValueTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.CrewTypeEnum" Collapsed="true">
+    <Position X="40.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\enums\CrewTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.DaylightTypeEnum" Collapsed="true">
+    <Position X="42.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\enums\DaylightTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.LevelEnum" Collapsed="true">
+    <Position X="46" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\enums\LevelEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.TradeTypeEnum" Collapsed="true">
+    <Position X="40.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Model\enums\TradeTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.VariableSubTypeEnum" Collapsed="true">
+    <Position X="46" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIQAAAEAACAAAAEAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Model\enums\VariableSubTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.VariableTypeEnum" Collapsed="true">
+    <Position X="40.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQEAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\enums\VariableTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.ZoneEnum" Collapsed="true">
+    <Position X="42.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\enums\ZoneEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

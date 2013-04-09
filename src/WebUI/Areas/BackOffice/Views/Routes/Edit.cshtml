@@ -1,0 +1,145 @@
+﻿@model Framework.ViewModels.RouteViewModel
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_LayoutAmanda.cshtml";
+}
+
+<div class="pageheader notab">
+    <h1 class="pagetitle">Ruta</h1>
+    <span class="pagedesc">Modifique la ruta aquí</span>
+</div>
+<!--pageheader-->
+<div id="contentwrapper" class="contentwrapper">
+
+    <form id="Form" name="Form" runat="server" class="stdform stdform2">
+        
+        <input type="hidden" id="ID" value="@Model.Route.ID" />
+
+        <!-- notification msgerror -->
+        <div class="stdform stdform2">
+            <div id="basicform" class="subcontent">
+                <p>
+                    <label>Name</label>
+                    <span class="field">
+                        <input id="Name" maxlength="50" type="text" name="Name" class="longinput" value="@Model.Route.Name" />
+                    </span>
+                </p>
+                <p>
+                    <label>Distance</label>
+                    <span class="field">
+                        <input id="Distance" maxlength="5" type="text" name="Distance" class="width50 noradiusright" value="@Model.Route.Distance" />
+                    </span>
+                </p>
+                <p>
+                    <label>Created</label>
+                    <span class="field">
+                        <input id="Created" maxlength="11" type="text" name="Created" class="smallinput" value="@Model.Route.Created.ToShortDateString()" />
+                    </span>
+                </p>
+                <p>
+                    <label>Comments</label>
+                    <span class="field">
+                        <textarea rows="4" cols="80" id="Comments" maxlength="50" name="Comments" class="longinput">@Model.Route.Comments</textarea>
+                    </span>
+                </p>
+                <p>
+                    <label>Customer</label>
+                    <span class="field">
+                        
+                        
+
+                        <select runat="server" name="Customer" id="Customer" >
+                            @foreach(var customer in Model.Customers)
+                            {
+                                <option value="@customer.ID">@customer.Name</option>
+                            }
+                        </select>
+                    </span>
+                </p>
+                <p>
+                    <label>Deleted</label>
+                    <span class="field">
+                        <input type="checkbox" id="IsDeleted" name="IsDeleted" class="smallinput" value="@Model.Route.IsDeleted" />
+                    </span>
+                </p>
+                <p class="par stdformbutton">
+                    <span id="lp" style="display:none"><small>Procesando&hellip; </small>
+                        <img src="/Images/loader2.gif" alt="loading" style="vertical-align: middle" />
+                    </span>
+                    <button type="submit" id="btnAccept" class="stdbtn btn_yellow">
+                        Aceptar</button>
+                    <button type="button" id="btnCancel" class="stdbtn btn_black" onclick="window.location.href='/BackOffice/Routes';">
+                        Cancelar</button>
+                </p>
+
+            </div>
+        </div>
+    </form>
+</div>
+
+<script type="text/javascript">
+
+    jQuery(document).ready(function () {
+
+        jQuery('#Created').datepicker({});
+
+        jQuery("#Comments").charCount({
+            allowed: 50,
+            warning: 40,
+            counterText: 'Caracteres restantes: '
+        });
+
+        jQuery("#Distance").spinner({ min: 0, max: 3000, increment: 1 });
+
+        jQuery("#Form").validate({
+            rules: {
+                Name: {
+                    required: true
+                },
+                Distance: {
+                    required: true
+                },
+                Comments: {
+                    required: false,
+                    maxlength: 50
+                }
+            },
+            messages: {
+                Name: "Ingrese nombre",
+                Distance: "Ingrese distancia"
+            },
+            submitHandler: function (form) {
+                DoAjaxPost();
+            }
+        });
+
+    });
+
+    // TODO: Refactorizar, ponerlo en la utils
+    function DoAjaxPost() {
+        var $form = jQuery("#Form");
+
+        jQuery("#lp").css("display", "inline");
+
+        jQuery.ajax({
+            type: "POST",
+            url: $form.attr('action'),
+            data: $form.serialize(),
+            error: function (xhr, status, error) {
+                jAlert('Error al modificar los datos',"Error");
+            },
+            success: function (response) {
+                jQuery('#lp').css('display', 'none');
+                jAlert(response, "Información", goInicio);
+            }
+        });
+
+        return false;
+    }
+
+    function goInicio() {
+        window.location.href = "/Backoffice/Routes";
+    }
+
+</script>

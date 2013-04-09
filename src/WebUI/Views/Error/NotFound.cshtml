@@ -1,0 +1,14 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "No Encontrado";
+    Layout = "~/Views/Shared/_LayoutBase.cshtml";
+}
+
+<hgroup class="title">
+    <h1 class="error">Error 404.</h1>
+    <h2 class="error">Recurso no encontrado.</h2>
+    <p>
+        @Html.ActionLink("Ir al Inicio", "Index", "Home")
+    </p>
+</hgroup>

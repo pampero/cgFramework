@@ -1,0 +1,12 @@
+-. Definir los controles para backoffice. Grillas. Esto no me gusta nada -> jQueryDataTableParamModel.
+-. Probar seguridad en RouteController con Windows Auth y con Anonymous, con y sin roles.
+-. Hacer demo de Automapper.
+-. Ver Modernizer.
+
+OK -. Probar que funcione el mecanismo de bundle.
+OK -. Se decide usar automapper. -. Ver como mapea los ViewModels con Injecter el ProDinner.
+OK -. Cambiar el nombre Framework en el proyecto de Sitio por algo mas representativo.
+OK -. Probar Knockout.js.
+OK -. Probar controles jQuery y visualización.
+OK -. Investigar diferencias entre IQueryable y List<>
+OK -. Investigar por qué da error en el global.asax que busca el controller notificationhub.

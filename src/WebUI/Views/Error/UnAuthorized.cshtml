@@ -1,0 +1,14 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "Acceso Denegado";
+    Layout = "~/Views/Shared/_LayoutBase.cshtml";
+}
+
+<hgroup class="title">
+    <h1 class="error">Error 403.</h1>
+    <h2 class="error">Acceso Denegado.</h2>
+    <p>
+        @Html.ActionLink("Ir al Inicio", "Index", "Home")
+    </p>
+</hgroup>

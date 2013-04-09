@@ -1,0 +1,7 @@
+Entity Framework 5. Performance
+http://www.sql-server-performance.com/2012/entity-framework-performance-optimization/
+
+Automapper
+https://github.com/AutoMapper/AutoMapper
+http://jhonnyslopez.wordpress.com/2012/07/14/adaptando-de-manera-sencilla-con-automapper-nuestros-data-transfer-objects-dto-entity-framework-wcf-c/
+http://www.codeproject.com/Articles/61629/AutoMapper

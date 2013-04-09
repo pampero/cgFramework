@@ -1,0 +1,38 @@
+
+
+
+-. mockups
+-. estilo en grillas, completar ABM (ROCA), grabación AJAX ABM.
+-. Crypto
+
+-. autofac con usertrackerlog
+
+
+jQuery Bundles
+
+user: sallen
+pwd: imalittleteapot
+
+
+Cambiar connectionstring en web.config.
+<add name="AppDbContext" connectionString="data source=.\sqlexpress2008;Integrated Security=false;user id=sa;password=el78Taxi;User Instance=false;Initial Catalog=Test" providerName="System.Data.SqlClient" />
+
+Crear la base de datos Test desde SQLServer 2008
+
+En la consola de VS2012 - Manage Nuget Package - Seleccionar el proyecto Model.
+
+Ejecutar en la línea de comando update-database -force
+
+Esto actualizará el modelo con la base de datos.
+
+Correr el script de base de datos que cargará los maestros desde le proyecto Model.SQL.
+
+Correr la app.
+
+usuario: admin
+password: Passw0rd
+
+Ir a:
+
+http://localhost:1586/BackOffice/routes/
+http://localhost:1586/BackOffice/routes/Edit/1
