@@ -1,6 +1,3 @@
-
-
-
 -. mockups
 -. estilo en grillas, completar ABM (ROCA), grabación AJAX ABM.
 -. Crypto
