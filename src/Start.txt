@@ -1,7 +1,7 @@
 -. Crear el siguiente alias de base de datos desde Sql Server Configuration
 
 Alias Name: GuideDbServer
-Pipe Name: \\.\pipe\MSSQL$sqlexpress2008\sql\query 
+Pipe Name: \\.\pipe\MSSQL$sqlexpress\sql\query 
 Protocol: Named Pipes
 Server: .
 
